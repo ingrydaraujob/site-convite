@@ -1,0 +1,112 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ffcccb, #ffb3b3); /* Gradiente suave */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 500px;
+}
+
+.titulo {
+    font-size: 36px;
+    color: #ff7e5f;
+    margin-bottom: 20px;
+}
+
+.mensagem {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Estilos dos botões */
+.botao {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sim {
+    background-color: #ff7e5f;
+    color: white;
+}
+
+.sim:hover {
+    background-color: #feb47b;
+}
+
+.nao {
+    background-color: #feb47b;
+    color: white;
+}
+
+.nao:hover {
+    background-color: #ff7e5f;
+}
+
+/* Estilos da flor amarela  */
+.flower {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .petal {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+  }
+  
+  .petal1 {
+    top: 0;
+    left: 25px;
+  }
+  
+  .petal2 {
+    left: 0;
+    top: 25px;
+  }
+  
+  .petal3 {
+    top: 25px;
+    right: 0;
+  }
+  
+  .petal4 {
+    bottom: 0;
+    left: 25px;
+  }
+  
+  .center {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    top: 35px;
+    left: 35px;
+  }
+
+
+
+
+ 
